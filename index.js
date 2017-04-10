@@ -7,6 +7,8 @@ app.engine('html', engines.nunjucks);
 app.set('view engine', 'html');
 app.set('views', __dirname + '/views');
 
+var port = process.env.PORT || 3000;
+
 app.use(sassMiddleware({
     /* Options */
     src: __dirname + '/public/sass',
@@ -32,7 +34,7 @@ app.get('/', function(req, res, next) {
 
 app.use(errorHandler);
 
-var server = app.listen(3000, function() {
+var server = app.listen(port, function() {
     var port = server.address().port;
     console.log('Express server listening on port %s.', port);
 });
