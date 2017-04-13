@@ -1,6 +1,6 @@
 {
   "name": "basicNode",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple static website",
   "main": "index.js",
   "scripts": {
