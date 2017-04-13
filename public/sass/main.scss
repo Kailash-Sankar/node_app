@@ -1,8 +1,14 @@
 // colors
-$pri: #FFA500;
-$sec: #1d1f20;
-$ter: #eeeeee;
-$qua: rebeccapurple;
+$orange: #FFA500;
+$shadow: #1d1f20;
+$white: #eeeeee;
+$black : #333;
+
+body {
+  background: $black;
+  background: url(/images/pattern.svg);
+  background-size: cover;
+}
 
 // utils
 .fix-on-window {
@@ -119,12 +125,6 @@ $qua: rebeccapurple;
 
 /* progress button */
 .button-hue1 {
-  background: #00d2ff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #928DAB, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.button-hue2 {
   background: #EECDA3;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -138,7 +138,7 @@ $qua: rebeccapurple;
 	padding: 0 60px;
 	outline: none;
 	border: none;
-  @extend .button-hue2;
+  background-color: antiquewhite;
 	color: lighten(#000,10%);
 	text-transform: uppercase;
 	letter-spacing: 1px;

@@ -32,6 +32,10 @@ app.get('/', function(req, res, next) {
     res.render('landing.html', { });
 });
 
+app.get('/home', function(req, res, next) {
+    res.render('home.html', { });
+});
+
 app.use(errorHandler);
 
 var server = app.listen(port, function() {

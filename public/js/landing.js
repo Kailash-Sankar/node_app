@@ -18,3 +18,21 @@ var dreams = document.getElementById('dreams');
 setTimeout( function() {
   dreams.click();
 },800);
+
+setTimeout( function() {
+  loadHome();
+},3000)
+
+function loadHome() {
+    $.ajax({
+      url: '/home',
+      success: function(res) {
+        $('main.view').html(res);
+        $('.preloader').slideUp();
+        console.log('success');
+      },
+      error : function(res) {
+        console.log('error');
+      }
+    })
+}
