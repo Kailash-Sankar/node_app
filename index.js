@@ -36,6 +36,11 @@ app.get('/home', function(req, res, next) {
     res.render('home.html', { });
 });
 
+app.get('/alt_home', function(req, res, next) {
+    res.render('alt_home.html', { });
+});
+
+
 app.use(errorHandler);
 
 var server = app.listen(port, function() {

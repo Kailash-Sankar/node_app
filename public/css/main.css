@@ -18,11 +18,17 @@ body {
   position: absolute; }
 
 .preloader {
+  /*
   background: #67B26F;
-  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);
-  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #4ca2cd, #67B26F);
+  */
+  font-family: "Lato", sans-serif;
+  background: #bdc3c7;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
 .above, .logo {
@@ -43,7 +49,6 @@ body {
 
 .logo {
   font-size: 26px;
-  font-family: monospace;
   color: beige;
   opacity: 0;
   width: 100%; }
@@ -84,12 +89,12 @@ body {
 
 /* progress button */
 .button-hue1, .progress-button .progress-inner {
+  /*
   background: #EECDA3;
-  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);
-  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #EF629F, #EECDA3);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  */
+  background-color: #a0a8af; }
 
 *, *:after, *::before {
   box-sizing: border-box; }
@@ -100,7 +105,7 @@ body {
   padding: 0 60px;
   outline: none;
   border: none;
-  background-color: antiquewhite;
+  background-color: #f1f1d9;
   color: #1a1a1a;
   text-transform: uppercase;
   letter-spacing: 1px;

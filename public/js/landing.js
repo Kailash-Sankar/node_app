@@ -19,20 +19,24 @@ setTimeout( function() {
   dreams.click();
 },800);
 
-setTimeout( function() {
-  loadHome();
-},3000)
-
 function loadHome() {
     $.ajax({
-      url: '/home',
+      url: '/alt_home',
       success: function(res) {
-        $('main.view').html(res);
-        $('.preloader').slideUp();
         console.log('success');
+        $('main.view').html(res);
+        showHome();
       },
       error : function(res) {
         console.log('error');
       }
     })
 }
+
+function showHome() {
+  $('.preloader').slideUp();
+}
+
+setTimeout( function() {
+  loadHome();
+},3000)
