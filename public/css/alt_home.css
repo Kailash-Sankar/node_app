@@ -23,7 +23,7 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url("/images/home.jpeg");
+  background-image: url("/images/home_new.jpg");
   min-height: 100%; }
 
 /* Second image (Portfolio) */
@@ -41,6 +41,11 @@ body, html {
 
 .w3-hover-opacity {
   cursor: pointer; }
+
+.small-heading {
+  font-weight: 600;
+  text-decoration: underline;
+  margin-bottom: -14px; }
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
