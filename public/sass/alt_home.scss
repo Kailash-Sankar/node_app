@@ -1,9 +1,11 @@
+$lovely_blue : rgb(0,0,143);
+
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
     height: 100%;
     color: #777;
     line-height: 1.8;
-    background: snow;
+    background-color: #FAFAFA;
 }
 
 .w3-bar {
@@ -44,10 +46,20 @@ body, html {
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
-.small-heading {
+.sec-header {
+  color : $lovely_blue;
   font-weight: 600;
+}
+
+.sec-label {
+  font-size:21px;
+  color : $lovely_blue;
   text-decoration: underline;
   margin-bottom: -14px;
+}
+
+.sec-text {
+  font-size : 18px;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
@@ -55,4 +67,13 @@ body, html {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
+}
+
+.w3-border-blue, .w3-hover-border-blue:hover {
+    border-color: #00008f!important;
+}
+
+.w3-button:hover {
+    color: #00008f!important;
+    background-color: #FAFAFA !important;
 }

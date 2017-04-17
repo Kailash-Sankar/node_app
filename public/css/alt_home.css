@@ -5,7 +5,7 @@ body, html {
   height: 100%;
   color: #777;
   line-height: 1.8;
-  background: snow; }
+  background-color: #FAFAFA; }
 
 .w3-bar {
   color: #333; }
@@ -42,12 +42,27 @@ body, html {
 .w3-hover-opacity {
   cursor: pointer; }
 
-.small-heading {
-  font-weight: 600;
+.sec-header {
+  color: #00008f;
+  font-weight: 600; }
+
+.sec-label {
+  font-size: 21px;
+  color: #00008f;
   text-decoration: underline;
   margin-bottom: -14px; }
+
+.sec-text {
+  font-size: 18px; }
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll; } }
+
+.w3-border-blue, .w3-hover-border-blue:hover {
+  border-color: #00008f !important; }
+
+.w3-button:hover {
+  color: #00008f !important;
+  background-color: #FAFAFA !important; }
