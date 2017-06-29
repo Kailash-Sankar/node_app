@@ -1,4 +1,3 @@
-console.log('wwwwww');
 particlesJS("particles-js", {
   "particles": {
     "number": {

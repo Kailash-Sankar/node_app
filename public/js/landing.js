@@ -23,14 +23,14 @@ function loadHome() {
     $.ajax({
       url: '/alt_home',
       success: function(res) {
-        console.log('success');
+        //console.log('success');
         $('main.view').html(res).fadeIn();
         setTimeout( function() {
           showHome();
         },500)
       },
       error : function(res) {
-        console.log('error');
+        //console.log('error');
       }
     })
 }

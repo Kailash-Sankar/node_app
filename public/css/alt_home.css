@@ -7,6 +7,10 @@ body, html {
   line-height: 1.8;
   background-color: #FAFAFA; }
 
+main.view {
+  width: 100%;
+  height: 100%; }
+
 .w3-bar {
   color: #333; }
 
