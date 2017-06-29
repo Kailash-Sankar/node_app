@@ -15,9 +15,13 @@ var dreams = document.getElementById('dreams');
 	} );
 
 //initiate the loader
-setTimeout( function() {
+//setTimeout( function() {
   dreams.click();
-},800);
+//},800);
+
+function showHome() {
+  $('.preloader').slideUp();
+}
 
 function loadHome() {
     $.ajax({
@@ -25,10 +29,10 @@ function loadHome() {
       success: function(res) {
         //console.log('success');
         $('main.view').html(res).fadeIn();
-        setTimeout( function() {
+        //setTimeout( function() {
           showHome();
           loadParticles();
-        },500)
+        //},500)
       },
       error : function(res) {
         //console.log('error');
@@ -36,10 +40,8 @@ function loadHome() {
     })
 }
 
-function showHome() {
-  $('.preloader').slideUp();
-}
+
 
 setTimeout( function() {
   loadHome();
-},3000)
+},500)
