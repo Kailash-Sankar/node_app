@@ -27,6 +27,7 @@ function loadHome() {
         $('main.view').html(res).fadeIn();
         setTimeout( function() {
           showHome();
+          loadParticles();
         },500)
       },
       error : function(res) {
