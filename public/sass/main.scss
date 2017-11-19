@@ -26,11 +26,10 @@ body {
 }
 
 .preloader {
-  /*
+
   background: #67B26F;
   background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);
   background: linear-gradient(to right, #4ca2cd, #67B26F);
-  */
   font-family: "Lato", sans-serif;
   /*
   background: #00d2ff;
@@ -223,4 +222,5 @@ body {
 	z-index: 10;
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
+  background-color: transparent;
 }

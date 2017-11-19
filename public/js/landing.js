@@ -20,7 +20,7 @@ var dreams = document.getElementById('dreams');
 //},800);
 
 function showHome() {
-  $('.preloader').slideUp();
+  $('.preloader').slideUp(2000);
 }
 
 function loadHome() {
@@ -30,7 +30,9 @@ function loadHome() {
         //console.log('success');
         $('main.view').html(res).fadeIn();
           $('main.view').addClass('bg-main');
-          showHome();
+          setTimeout( function() {
+            showHome();
+          },500)
           //loadParticles();
       },
       error : function(res) {

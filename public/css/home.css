@@ -193,204 +193,204 @@ a:focus {
     background-color: #d0751e;
     box-shadow: 0px 0px 2px 1px #fca83f; }
   .sky .star:nth-child(1) {
-    left: 29%;
-    top: 38%;
+    left: 21%;
+    top: 41%;
     animation: glow2 2s linear infinite; }
   .sky .star:nth-child(2) {
-    left: 42%;
-    top: 68%;
+    left: 2%;
+    top: 29%;
     animation: glow1 2s linear infinite; }
   .sky .star:nth-child(3) {
-    left: 99%;
-    top: 63%;
-    animation: glow2 2s linear infinite; }
-  .sky .star:nth-child(4) {
-    left: 64%;
-    top: 35%;
-    animation: glow1 2s linear infinite; }
-  .sky .star:nth-child(5) {
-    left: 63%;
-    top: 61%;
-    animation: glow2 2s linear infinite; }
-  .sky .star:nth-child(6) {
-    left: 23%;
-    top: 47%;
-    animation: glow1 2s linear infinite; }
-  .sky .star:nth-child(7) {
-    left: 45%;
-    top: 72%;
-    animation: glow2 2s linear infinite; }
-  .sky .star:nth-child(8) {
-    left: 58%;
-    top: 72%;
-    animation: glow1 2s linear infinite; }
-  .sky .star:nth-child(9) {
-    left: 74%;
-    top: 77%;
-    animation: glow2 2s linear infinite; }
-  .sky .star:nth-child(10) {
-    left: 10%;
-    top: 78%;
-    animation: glow1 2s linear infinite; }
-  .sky .star:nth-child(11) {
-    left: 75%;
-    top: 32%;
-    animation: glow2 2s linear infinite; }
-  .sky .star:nth-child(12) {
-    left: 24%;
-    top: 39%;
-    animation: glow1 2s linear infinite; }
-  .sky .star:nth-child(13) {
-    left: 37%;
-    top: 83%;
-    animation: glow2 2s linear infinite; }
-  .sky .star:nth-child(14) {
-    left: 20%;
-    top: 72%;
-    animation: glow1 2s linear infinite; }
-  .sky .star:nth-child(15) {
-    left: 86%;
-    top: 66%;
-    animation: glow2 2s linear infinite; }
-  .sky .star:nth-child(16) {
-    left: 77%;
-    top: 77%;
-    animation: glow1 2s linear infinite; }
-  .sky .star:nth-child(17) {
-    left: 98%;
-    top: 62%;
-    animation: glow2 2s linear infinite; }
-  .sky .star:nth-child(18) {
-    left: 64%;
-    top: 55%;
-    animation: glow1 2s linear infinite; }
-  .sky .star:nth-child(19) {
-    left: 10%;
-    top: 54%;
-    animation: glow2 2s linear infinite; }
-  .sky .star:nth-child(20) {
-    left: 70%;
-    top: 4%;
-    animation: glow1 2s linear infinite; }
-  .sky .star:nth-child(21) {
-    left: 6%;
-    top: 2%;
-    animation: glow2 2s linear infinite; }
-  .sky .star:nth-child(22) {
-    left: 60%;
-    top: 47%;
-    animation: glow1 2s linear infinite; }
-  .sky .star:nth-child(23) {
-    left: 3%;
-    top: 12%;
-    animation: glow2 2s linear infinite; }
-  .sky .star:nth-child(24) {
-    left: 87%;
-    top: 61%;
-    animation: glow1 2s linear infinite; }
-  .sky .star:nth-child(25) {
-    left: 69%;
-    top: 22%;
-    animation: glow2 2s linear infinite; }
-  .sky .star:nth-child(26) {
-    left: 47%;
-    top: 51%;
-    animation: glow1 2s linear infinite; }
-  .sky .star:nth-child(27) {
-    left: 18%;
-    top: 47%;
-    animation: glow2 2s linear infinite; }
-  .sky .star:nth-child(28) {
-    left: 68%;
-    top: 37%;
-    animation: glow1 2s linear infinite; }
-  .sky .star:nth-child(29) {
-    left: 73%;
-    top: 66%;
-    animation: glow2 2s linear infinite; }
-  .sky .star:nth-child(30) {
-    left: 78%;
-    top: 37%;
-    animation: glow1 2s linear infinite; }
-  .sky .star:nth-child(31) {
-    left: 97%;
-    top: 2%;
-    animation: glow2 2s linear infinite; }
-  .sky .star:nth-child(32) {
-    left: 1%;
-    top: 60%;
-    animation: glow1 2s linear infinite; }
-  .sky .star:nth-child(33) {
-    left: 89%;
-    top: 58%;
-    animation: glow2 2s linear infinite; }
-  .sky .star:nth-child(34) {
-    left: 5%;
-    top: 20%;
-    animation: glow1 2s linear infinite; }
-  .sky .star:nth-child(35) {
-    left: 3%;
-    top: 12%;
-    animation: glow2 2s linear infinite; }
-  .sky .star:nth-child(36) {
-    left: 48%;
-    top: 17%;
-    animation: glow1 2s linear infinite; }
-  .sky .star:nth-child(37) {
-    left: 48%;
-    top: 99%;
-    animation: glow2 2s linear infinite; }
-  .sky .star:nth-child(38) {
-    left: 79%;
-    top: 31%;
-    animation: glow1 2s linear infinite; }
-  .sky .star:nth-child(39) {
-    left: 43%;
-    top: 14%;
-    animation: glow2 2s linear infinite; }
-  .sky .star:nth-child(40) {
-    left: 83%;
-    top: 7%;
-    animation: glow1 2s linear infinite; }
-  .sky .star:nth-child(41) {
-    left: 90%;
-    top: 99%;
-    animation: glow2 2s linear infinite; }
-  .sky .star:nth-child(42) {
-    left: 20%;
-    top: 74%;
-    animation: glow1 2s linear infinite; }
-  .sky .star:nth-child(43) {
-    left: 100%;
-    top: 72%;
-    animation: glow2 2s linear infinite; }
-  .sky .star:nth-child(44) {
-    left: 66%;
-    top: 38%;
-    animation: glow1 2s linear infinite; }
-  .sky .star:nth-child(45) {
-    left: 69%;
+    left: 82%;
     top: 44%;
     animation: glow2 2s linear infinite; }
-  .sky .star:nth-child(46) {
-    left: 71%;
-    top: 46%;
+  .sky .star:nth-child(4) {
+    left: 42%;
+    top: 90%;
     animation: glow1 2s linear infinite; }
-  .sky .star:nth-child(47) {
-    left: 4%;
-    top: 19%;
+  .sky .star:nth-child(5) {
+    left: 79%;
+    top: 98%;
     animation: glow2 2s linear infinite; }
-  .sky .star:nth-child(48) {
-    left: 77%;
+  .sky .star:nth-child(6) {
+    left: 81%;
+    top: 78%;
+    animation: glow1 2s linear infinite; }
+  .sky .star:nth-child(7) {
+    left: 89%;
+    top: 91%;
+    animation: glow2 2s linear infinite; }
+  .sky .star:nth-child(8) {
+    left: 12%;
+    top: 87%;
+    animation: glow1 2s linear infinite; }
+  .sky .star:nth-child(9) {
+    left: 14%;
+    top: 3%;
+    animation: glow2 2s linear infinite; }
+  .sky .star:nth-child(10) {
+    left: 53%;
     top: 82%;
     animation: glow1 2s linear infinite; }
+  .sky .star:nth-child(11) {
+    left: 74%;
+    top: 62%;
+    animation: glow2 2s linear infinite; }
+  .sky .star:nth-child(12) {
+    left: 57%;
+    top: 28%;
+    animation: glow1 2s linear infinite; }
+  .sky .star:nth-child(13) {
+    left: 43%;
+    top: 3%;
+    animation: glow2 2s linear infinite; }
+  .sky .star:nth-child(14) {
+    left: 26%;
+    top: 18%;
+    animation: glow1 2s linear infinite; }
+  .sky .star:nth-child(15) {
+    left: 57%;
+    top: 82%;
+    animation: glow2 2s linear infinite; }
+  .sky .star:nth-child(16) {
+    left: 84%;
+    top: 9%;
+    animation: glow1 2s linear infinite; }
+  .sky .star:nth-child(17) {
+    left: 38%;
+    top: 67%;
+    animation: glow2 2s linear infinite; }
+  .sky .star:nth-child(18) {
+    left: 11%;
+    top: 66%;
+    animation: glow1 2s linear infinite; }
+  .sky .star:nth-child(19) {
+    left: 92%;
+    top: 79%;
+    animation: glow2 2s linear infinite; }
+  .sky .star:nth-child(20) {
+    left: 24%;
+    top: 68%;
+    animation: glow1 2s linear infinite; }
+  .sky .star:nth-child(21) {
+    left: 57%;
+    top: 82%;
+    animation: glow2 2s linear infinite; }
+  .sky .star:nth-child(22) {
+    left: 97%;
+    top: 17%;
+    animation: glow1 2s linear infinite; }
+  .sky .star:nth-child(23) {
+    left: 99%;
+    top: 19%;
+    animation: glow2 2s linear infinite; }
+  .sky .star:nth-child(24) {
+    left: 44%;
+    top: 54%;
+    animation: glow1 2s linear infinite; }
+  .sky .star:nth-child(25) {
+    left: 18%;
+    top: 2%;
+    animation: glow2 2s linear infinite; }
+  .sky .star:nth-child(26) {
+    left: 53%;
+    top: 71%;
+    animation: glow1 2s linear infinite; }
+  .sky .star:nth-child(27) {
+    left: 24%;
+    top: 20%;
+    animation: glow2 2s linear infinite; }
+  .sky .star:nth-child(28) {
+    left: 5%;
+    top: 81%;
+    animation: glow1 2s linear infinite; }
+  .sky .star:nth-child(29) {
+    left: 52%;
+    top: 25%;
+    animation: glow2 2s linear infinite; }
+  .sky .star:nth-child(30) {
+    left: 37%;
+    top: 95%;
+    animation: glow1 2s linear infinite; }
+  .sky .star:nth-child(31) {
+    left: 62%;
+    top: 11%;
+    animation: glow2 2s linear infinite; }
+  .sky .star:nth-child(32) {
+    left: 58%;
+    top: 35%;
+    animation: glow1 2s linear infinite; }
+  .sky .star:nth-child(33) {
+    left: 90%;
+    top: 62%;
+    animation: glow2 2s linear infinite; }
+  .sky .star:nth-child(34) {
+    left: 96%;
+    top: 51%;
+    animation: glow1 2s linear infinite; }
+  .sky .star:nth-child(35) {
+    left: 32%;
+    top: 99%;
+    animation: glow2 2s linear infinite; }
+  .sky .star:nth-child(36) {
+    left: 90%;
+    top: 81%;
+    animation: glow1 2s linear infinite; }
+  .sky .star:nth-child(37) {
+    left: 59%;
+    top: 66%;
+    animation: glow2 2s linear infinite; }
+  .sky .star:nth-child(38) {
+    left: 45%;
+    top: 99%;
+    animation: glow1 2s linear infinite; }
+  .sky .star:nth-child(39) {
+    left: 25%;
+    top: 59%;
+    animation: glow2 2s linear infinite; }
+  .sky .star:nth-child(40) {
+    left: 97%;
+    top: 93%;
+    animation: glow1 2s linear infinite; }
+  .sky .star:nth-child(41) {
+    left: 19%;
+    top: 86%;
+    animation: glow2 2s linear infinite; }
+  .sky .star:nth-child(42) {
+    left: 21%;
+    top: 45%;
+    animation: glow1 2s linear infinite; }
+  .sky .star:nth-child(43) {
+    left: 8%;
+    top: 71%;
+    animation: glow2 2s linear infinite; }
+  .sky .star:nth-child(44) {
+    left: 96%;
+    top: 42%;
+    animation: glow1 2s linear infinite; }
+  .sky .star:nth-child(45) {
+    left: 8%;
+    top: 10%;
+    animation: glow2 2s linear infinite; }
+  .sky .star:nth-child(46) {
+    left: 93%;
+    top: 82%;
+    animation: glow1 2s linear infinite; }
+  .sky .star:nth-child(47) {
+    left: 99%;
+    top: 53%;
+    animation: glow2 2s linear infinite; }
+  .sky .star:nth-child(48) {
+    left: 42%;
+    top: 11%;
+    animation: glow1 2s linear infinite; }
   .sky .star:nth-child(49) {
-    left: 36%;
-    top: 13%;
+    left: 68%;
+    top: 21%;
     animation: glow2 2s linear infinite; }
   .sky .star:nth-child(50) {
-    left: 46%;
-    top: 41%;
+    left: 52%;
+    top: 79%;
     animation: glow1 2s linear infinite; }
 
 @keyframes glow1 {
