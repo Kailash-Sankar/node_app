@@ -22,6 +22,13 @@
 		linear-gradient(315deg, hsla(290, 91%, 43%, 1) 100%, hsla(290, 91%, 43%, 0) 70%);
 }
 
+.bg-main {
+  background-color: #CDDC39;
+  background: url(/images/bg-main.jpg);
+  background-size: cover;
+  color:#fbf9fa;
+}
+
 a {
 	text-decoration: none;
 	color: #fff;
@@ -87,17 +94,18 @@ a:focus {
 }
 
 .title {
-	font-size:32px;
+	font-size:5em;
 	font-weight:600;
+	color:#faa03f;
 }
 
 .sub-title {
-	font-size:18px;
+	font-size:1em;
 }
 
 .breaker {
   height: 1px;
-  background-color: lighten(#47373F, 35%);
+  background-color:#712d15;
   width: 20%;
   margin-left: auto;
   margin-right: auto;
@@ -117,7 +125,7 @@ a:focus {
 	position: absolute;
 	z-index: 1002;
 	opacity: 0;
-	color: #ffeb3b;
+	color: #faa03f;;
 	top: 0.5em;
 	right: 0.5em;
 	.icon {
@@ -134,7 +142,7 @@ a:focus {
 	left: 50%;
 	display: block;
 	margin: 0 -0.75em 1em;
-	color: #fbf9fa;
+	color: #faa03f;;
 }
 
 .btn--menu-active .icon--menu,
@@ -205,4 +213,77 @@ a:focus {
 	background-color: #FFC107;
 	background: url(/images/contact.jpeg);
 	background-size: cover;
+}
+
+
+@mixin setSize($w, $h) {
+  width: $w;
+  height: $h;
+}
+
+.sky {
+  width: 100%;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+
+	position: absolute;
+	height: 100%;
+
+  .star {
+    position: absolute;
+    @include setSize(3px, 3px);
+    transform: rotate(-45deg);
+    background-color: #d0751e;
+    box-shadow: 0px 0px 2px 1px #fca83f;
+  }
+  @for $i from 1 through 50 {
+    .star:nth-child(#{$i}) {
+      left: random(100) * 1%;
+      top: random(100) * 1%;
+      @if $i%2==0 {
+        animation: glow1 2s linear infinite;
+      }
+      @else {
+        animation: glow2 2s linear infinite;        
+      }
+    }
+  }
+}
+
+
+@keyframes glow1 {
+  0% {
+    box-shadow: 0px 0px 2px 1px #fca83f;
+  }
+  25% {
+    box-shadow: 0px 0px 0.5px 1px #FFDF9E;
+  }
+  50% {
+    box-shadow: 0px 0px 5px 0.5px #b05415;
+  }
+  75% {
+    box-shadow: 0px 0px 2.5px 1px #651F0C;
+  }
+  100% {
+    box-shadow: 0px 0px 2px 1px #fee1a3;
+  }
+}
+
+@keyframes glow2 {
+  0% {
+    box-shadow: 0px 0px 2px 1px #fca83f;
+  }
+  25% {
+    box-shadow: 0px 0px 6px 1px #FFD677;
+  }
+  50% {
+    box-shadow: 0px 0px 10px 1px #EB7909;
+  }
+  75% {
+    box-shadow: 0px 0px 5px 1px #FB8F29;
+  }
+  100% {
+    box-shadow: 0px 0px 2px 1px #ffbd58;
+  }
 }

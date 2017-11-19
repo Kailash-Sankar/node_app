@@ -25,14 +25,13 @@ function showHome() {
 
 function loadHome() {
     $.ajax({
-      url: '/alt_home',
+      url: '/home',
       success: function(res) {
         //console.log('success');
         $('main.view').html(res).fadeIn();
-        //setTimeout( function() {
+          $('main.view').addClass('bg-main');
           showHome();
-          loadParticles();
-        //},500)
+          //loadParticles();
       },
       error : function(res) {
         //console.log('error');
